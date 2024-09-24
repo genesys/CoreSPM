@@ -3,22 +3,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "Core",
+    name: "GenesysCloudCore",
     platforms: [
         .iOS(.v14)
     ],
     products: [
         .library(
-            name: "Core",
-            targets: ["Core"]
+            name: "GenesysCloudCore",
+            targets: ["GenesysCloudCore"]
         ),
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "Core",
-            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.prod/GenesysCloudCore/GenesysCloudCore_version_t1.5.0_commit_04c4ead1e64e480a6cbce313aeb2b415fb534914.zip",
-            checksum: "9cf504a8e8b55aba03dd1109b1d12526f5624578c3a2a4438973840010af4338"
+            name: "GenesysCloudCore",
+            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.prod/GenesysCloudCore/GenesysCloudCore_version_t1.10.1_commit_c8013a2ce7dd0621b485e1c3254b4aa74db487c8.zip",
+            checksum: "96a562b57e3f3174fc6cb879261c8525c5effd8b6027274df950b30819193a6e"
         ),
     ]
 )
